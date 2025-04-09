@@ -1,6 +1,6 @@
 {
   "name": "@kaltmax/password-utilities",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A useful JavaScript library that provides password utility functions",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
