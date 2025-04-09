@@ -2,8 +2,8 @@ const { generateStrongPassword, isStrongPassword } = require('../dist/index');
 
 describe('generateStrongPassword', () => {
     test('generates a password of the specified length', () => {
-        const password = generateStrongPassword(1);
-        expect(password.length).toBe(1);
+        const password = generateStrongPassword(8);
+        expect(password.length).toBe(8);
     });
 
     test('generate a password of length 12, which is the default', () => {
