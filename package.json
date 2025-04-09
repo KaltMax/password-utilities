@@ -1,0 +1,30 @@
+{
+  "name": "@kaltmax/password-utilities",
+  "version": "1.0.0",
+  "description": "A useful JavaScript library that provides password utility functions",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "microbundle",
+    "pretest": "npm run build",
+    "test": "npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaltMax/password-utilities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KaltMax/password-utilities/issues"
+  },
+  "homepage": "https://github.com/KaltMax/password-utilities#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1"
+  }
+}
