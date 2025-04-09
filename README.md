@@ -13,6 +13,7 @@
 - [License](#license)
 
 ## Installation
+
 a
 Install via npm:
 
@@ -36,12 +37,12 @@ import { generateStrongPassword, isStrongPassword} from '@kaltmax/password-utili
 
 ### generateStrongPassword
 
-Generate a strong password with a specific length (default 12):
+Generate a strong password with a specific length (default length = 12, minimum length = 8):
 
 ```js
-const input = 1;
-const strongPassword = generateStrongPassword(1);
-console.log(strongPassword); // Example Output: pC%mD8TpCKn2
+const input = 8;
+const strongPassword = generateStrongPassword(8);
+console.log(strongPassword); // Example Output: C%D8pCKn
 ```
 
 ### isStrongPassword

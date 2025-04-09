@@ -1,4 +1,8 @@
 export function generateStrongPassword(length = 12) {
+    if (length < 8) {
+        length = 8;
+    }
+
     const allowedPasswordCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
     let strongPassword = Array.from( { length }, () => {
         const randomAllowedPasswordCharacterIndex = Math.floor(Math.random() * allowedPasswordCharacters.length);
